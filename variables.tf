@@ -19,7 +19,7 @@ variable "instance_count" {
 variable "private_key_location" {
   description = "Location of the private key"
   type        = string
-  default     = "/Users/shamimmd/.ssh/aws_access_key.pem"
+  default     = "ssh_private_key.pem"
 }
 
 variable "public_instance_sg_ports" {
