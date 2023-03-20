@@ -7,7 +7,7 @@ module "vpc" {
   vpc_name = "efs_vpc"
   cidr     = "192.168.0.0/16"
 
-  azs                = ["ap-northeast-1a", "ap-northeast-1c"]
+  azs                = ["us-east-2a", "us-east-2b"]
   public_subnet_cidr = ["192.168.0.0/20", "192.168.16.0/20"]
 
   enable_dns_hostnames      = true
